@@ -6,7 +6,7 @@ def extract_emails_from_content(content):
     return emails
 
 # Load the downloaded content from a file
-with open("C:\\Users\\ASUS\\Downloads\\LeaderboardDataCampLearn.html", "r", encoding="utf-8") as file:
+with open("your website path", "r", encoding="utf-8") as file:
     website_content = file.read()
 
 email_list = extract_emails_from_content(website_content)
